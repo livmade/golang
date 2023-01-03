@@ -1,15 +1,14 @@
 package main
 
 import (
-	"main"
-	"time"
+	"fmt"
 )
 
-func main {
+func main() {
 	var count = 10
-	for count > 10 {
-		fmt.Println(count)
-		time.Sleep(time.Second)
+
+	for count > 0 {
+		fmt.Println("Launching in... ", count)
 		count--
 	}
 	fmt.Println("Liftoff!")
